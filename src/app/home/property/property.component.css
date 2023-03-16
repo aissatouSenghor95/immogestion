@@ -1,0 +1,131 @@
+.container {
+  padding-top: 8px;
+}
+.txthp {
+  text-align: center;
+  padding: 95px;
+}
+.txthp .txtp {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 33px;
+  line-height: 44px;
+  color: #333333;
+}
+.txthp .txth {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 100px;
+  color: #6ea72f;
+}
+.bi-geo-alt-fill {
+  color: #6ea72f;
+}
+.card {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  transform: scale(1.05);
+}
+.card-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  color: #494949;
+}
+.cartitle {
+  font-size: 23px;
+  font-weight: 400;
+}
+.cardF {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #6ea72f;
+}
+.btnVi {
+  padding: 1px 5px;
+  margin-top: -278px;
+  font-size: 14px;
+  margin-left: 241px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.btnPh {
+  padding: 1px 5px;
+  margin-top: -295px;
+  font-size: 14px;
+  margin-left: 241px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.btnConsulte {
+  padding: 7px 10px;
+  background: #6ea72f;
+  border-radius: 6px;
+  margin-top: 91px;
+  font-size: 12px;
+  margin-left: -17px;
+  color: #000000;
+}
+.nbr {
+  font-size: 10px;
+  color: #333333;
+}
+.nbr i {
+  color: #6ea72f;
+}
+/* responsive mobile */
+@media only screen and (max-width: 767px) {
+  .txthp {
+    text-align: center;
+    padding: 15px;
+  }
+  .txthp .txth {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    color: #6ea72f;
+  }
+  .txthp .txtp {
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .btnVi {
+    padding: 1px 5px;
+    margin-top: -278px;
+    font-size: 14px;
+    margin-left: 221px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .btnPh {
+    padding: 1px 5px;
+    margin-top: -288px;
+    font-size: 14px;
+    margin-left: 221px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .mtn {
+    width: 60%;
+  }
+  .icn {
+    width: 40%;
+  }
+}
+
+/* responsive tablette */
+@media only screen and (min-width: 768px) and (max-width: 920px) {
+}
