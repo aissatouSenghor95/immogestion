@@ -74,7 +74,7 @@
   color: #7b7b7b;
 }
 /* responsive mobile */
-@media only screen and (min-width: 320px) and (max-width: 540px) {
+@media only screen and (min-width: 260px) and (max-width: 540px) {
   .w-100 {
     width: 100% !important;
     height: 390px;
@@ -110,6 +110,14 @@
     padding-bottom: 6rem;
     color: rgb(0, 0, 0);
     text-align: left;
+  }
+  .btnConsulte {
+    padding: 10px 25px;
+    background: #6ea72f;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ffffff;
   }
 }
 /* responsive tablette */

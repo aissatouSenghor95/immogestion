@@ -1,0 +1,43 @@
+.galerie {
+  background-color: #f8f8f8;
+}
+.img1 {
+  height: 475px;
+}
+.img6 {
+  height: 166px;
+}
+.btnsavoirplus {
+  padding: 11px 35px;
+  background: #6ea72f;
+  border-radius: 6px;
+  margin-top: 1px;
+  font-size: 18px;
+  margin-left: 0px;
+  color: #ffffff;
+}
+.divbtn {
+  display: flex;
+  padding-bottom: 77px;
+  padding-top: 40px;
+  justify-content: center;
+}
+.txthp {
+  text-align: center;
+  padding: 60px;
+}
+.txthp .txtp {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 33px;
+  line-height: 44px;
+  color: #333333;
+}
+.txthp .txth {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 100px;
+  color: #6ea72f;
+}

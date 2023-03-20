@@ -9,6 +9,7 @@
 .test {
   background-color: #6ea72f;
   height: 35px;
+  padding: 0px;
 }
 .test p {
   margin-top: 4px;
@@ -32,4 +33,46 @@
   border-radius: 6px;
   font-size: 13px;
   color: #ffffff;
+}
+.testmobile {
+  display: none;
+}
+/* responsive mobile */
+@media only screen and (min-width: 260px) and (max-width: 540px) {
+  .test {
+    display: none;
+  }
+  .testmobile {
+    display: inline-block;
+    background-color: #6ea72f;
+    height: 45px;
+    line-height: 10px;
+    padding: 0px;
+  }
+  .p1 {
+    margin-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .p2 {
+    margin-top: -8px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .navbar-brand {
+    width: 50%;
+  }
+  .txtlogo {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 50px;
+    color: #2a2c30;
+  }
+  .navbar-toggler {
+    margin-right: 22px;
+  }
 }

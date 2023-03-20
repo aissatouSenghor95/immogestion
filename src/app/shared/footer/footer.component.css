@@ -1,0 +1,22 @@
+.footer-area {
+  /* background-color: #6ea72f; */
+  background-image: url("/assets/images/bgfooter.png");
+  padding: 50px;
+  color: white;
+  font-size: 15px;
+  font-family: "Open Sans";
+  line-height: 36px;
+  font-style: normal;
+}
+.imglogo {
+  width: 55px;
+  height: 71px;
+  padding-bottom: 18px;
+}
+.txtlogo {
+  font-size: 31px;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+}
