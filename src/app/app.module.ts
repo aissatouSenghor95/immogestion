@@ -21,12 +21,26 @@ import { DetailPropertyComponent } from './page/detail-property/detail-property.
 import { MatButtonModule } from '@angular/material/button';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { FaqComponent } from './page/faq/faq.component';
+import { NavComponent } from './page/DashHome/nav/nav.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { DashboardComponent } from './page/DashHome/dashboard/dashboard.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatExpansionModule } from '@angular/material/expansion';
+
+
 @NgModule({
   declarations: [
     AppComponent,
     ListBienComponent,
     DetailPropertyComponent,
     FaqComponent,
+    NavComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
@@ -40,7 +54,14 @@ import { FaqComponent } from './page/faq/faq.component';
     MatDialogModule,
     SharedModule,
     IvyCarouselModule,
-    MatButtonModule
+    MatButtonModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    MatGridListModule,
+    MatMenuModule,MatExpansionModule
 
   ],
   providers: [],
