@@ -10,10 +10,10 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 .mat-mdc-tab-body-content {
-  height: 100%;
-  padding-top: 45px !important;
-  padding-left: 21px !important;
-  padding-right: 21px !important;
+  /* height: 100%; */
+  /* padding-top: 45px !important; */
+  /* padding-left: 21px !important;
+  padding-right: 21px !important; */
   overflow: hidden !important;
 }
 .mat-mdc-tab:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline,

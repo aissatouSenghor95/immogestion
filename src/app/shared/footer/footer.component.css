@@ -1,6 +1,11 @@
 .footer-area {
   /* background-color: #6ea72f; */
   background-image: url("/assets/images/bgfooter.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   padding: 50px;
   color: white;
   font-size: 15px;

@@ -1,10 +1,10 @@
 <div class="test">
   <div class="container">
     <div class="row ">
-      <div class="col-10">
+      <div class=" col-lg-9 col-md-9 col-sm-9">
         <p> <i class="bi bi-send-fill"></i>&nbsp;&nbsp;Urban-Africa@alakham.com</p>
       </div>
-      <div class="col">
+      <div class="col-lg-3 col-md-3 col-sm-3">
         <p> <i class="bi bi-telephone"></i>&nbsp;&nbsp;77 777 77 57</p>
       </div>
     </div>
@@ -16,8 +16,9 @@
 </div>
 <nav class="navbar navbar-expand-lg navbar-white bg-white">
   <div class="container">
-    <a class="navbar-brand" href="#">
-      <img src="../assets/images/rentaimmo.jpg" width="100" height="60" class="d-inline-block align-top" alt="">
+    <a class="navbar-brand" routerLink="/">
+      <!-- <img src="../assets/images/rentalservices.jpeg" width="100" height="100" class="d-inline-block align-top" alt=""> -->
+      <img src="../assets/images/rentalservices.jpeg" class="d-inline-block align-top imglogo" alt="">
       <span class="txtlogo"> Rental Immo</span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -29,21 +30,22 @@
       <div class="mx-auto"></div>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link " href="#">Accueil</a>
+          <a class="nav-link " routerLink="/">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#">A propos de nous</a>
+          <a class="nav-link " routerLink="/about">A propos de nous</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#">Nos biens</a>
+          <a class="nav-link " routerLink="/listebien">Nos biens</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#">Contact</a>
+          <a class="nav-link " routerLink="/contact">Contact</a>
         </li>
       </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <div>
-        <button type="submit" class="btn btnConnect">Se connecter</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button type="submit" class="btn btnInscrire">S’inscrire</button>
+        <button type="submit" class="btn btnConnect" (click)="openLoginDialog()">Soumettre</button>
+        <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="submit" class="btn btnInscrire">S’inscrire</button> -->
       </div>
 
     </div>

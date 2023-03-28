@@ -1,0 +1,127 @@
+.full {
+  background-color: #ffffff;
+  padding: 65px;
+}
+
+h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #6ea72f;
+}
+.p1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #2a2c30;
+}
+.p2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  color: #000000;
+}
+.imgabout {
+  padding: 8px;
+  width: 88%;
+  object-fit: cover;
+}
+.btnsavoirplus {
+  padding: 11px 35px;
+  background: #6ea72f;
+  border-radius: 6px;
+  font-family: "Open Sans";
+  font-style: normal;
+  margin-top: 1px;
+  font-size: 18px;
+  margin-left: 0px;
+  color: #ffffff;
+}
+.divbtn {
+  display: flex;
+}
+/* responsive mobile */
+@media only screen and (min-width: 260px) and (max-width: 540px) {
+  .full {
+    background-color: #f8f8f8;
+    padding: 0px;
+  }
+  .imgabout {
+    padding: 8px;
+    width: 100%;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #6ea72f;
+    text-align: center;
+  }
+  .p1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2a2c30;
+    line-height: 25px;
+    text-align: center;
+  }
+  .p2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+  }
+  .divbtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .btnsavoirplus {
+    padding: 3px 10px;
+    background: #6ea72f;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: -5px;
+    color: #ffffff;
+  }
+}
+
+/* responsive tablette */
+@media only screen and (min-width: 768px) and (max-width: 920px) {
+  .p2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+  }
+  h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    color: #6ea72f;
+  }
+  .divbtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

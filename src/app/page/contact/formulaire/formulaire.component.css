@@ -1,0 +1,147 @@
+.main {
+  padding-bottom: 70px;
+}
+.pt-10 {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.btn {
+  background-color: #6ea72f;
+  color: #ffff;
+}
+.traitvert {
+  width: 60px;
+  margin-top: -5px;
+  height: 6px;
+  background-color: #6ea72f;
+}
+h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  margin-top: 50px;
+  color: #333333;
+}
+.txtp1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.cardform {
+  padding: 30px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 23px;
+  line-height: 50px;
+  color: #333333;
+}
+.cardadress {
+  padding: 10px;
+}
+.bg {
+  background-color: #6ea72f;
+  color: #ffff;
+  padding: 10px;
+  border-radius: 50px;
+  line-height: 60px;
+}
+.text-center {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 15px;
+  text-align: center;
+  color: #333333;
+}
+h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #2a2c30;
+}
+
+/* responsive mobile */
+@media only screen and (min-width: 260px) and (max-width: 540px) {
+  .cardform {
+    padding: 15px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 17px;
+    line-height: 30px;
+    color: #333333;
+  }
+  .text-center {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    text-align: center;
+    color: #333333;
+  }
+  .bg {
+    background-color: #6ea72f;
+    color: #ffff;
+    padding: 5px;
+    border-radius: 50px;
+    line-height: 27px;
+  }
+  .cardadress {
+    padding: 10px;
+    margin-top: 15px;
+  }
+  .txtp1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333333;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: #333333;
+  }
+  h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #2a2c30;
+  }
+}
+
+/* responsive tablette */
+@media only screen and (min-width: 768px) and (max-width: 920px) {
+  .cardform {
+    padding: 15px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 17px;
+    line-height: 56px;
+    color: #333333;
+  }
+}

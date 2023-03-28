@@ -1,0 +1,621 @@
+<app-header></app-header>
+<app-banner></app-banner>
+
+<section class="body">
+
+  <div class="col-md-2 side">
+    <h1>Filtrer par:</h1>
+    <div class="status">
+      <h2>Status</h2>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          A louer
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          A Vendre
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Co-location
+        </label>
+      </div>
+
+
+    </div>
+    <div class="prix">
+      <h2>Prix</h2>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          De 50 k à 100 k
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          De 100 k à 200 k
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          De 200 k à 400 k
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          De 400 k à 600 k
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          De 600 k à 800 k
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          De 800 k à 2 M
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          De 2 M à 5 M
+        </label>
+      </div>
+    </div>
+    <div class="categories">
+      <h2>Categories</h2>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Appartement
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Studio
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Bureau
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Box
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Maison
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Terrain
+        </label>
+      </div>
+    </div>
+    <div class="date">
+      <h2>Date d'ajout</h2>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Dernière heure
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          24 dernières heures
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Les 7 derniers jours
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          14 derniers jours
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Les 30 derniers jours
+        </label>
+      </div>
+
+    </div>
+  </div>
+  <div class="col-md-9  container">
+    <div class="pt-5"></div>
+    <div class="container1">
+      <div class="divrecherche">
+        <p>Maison, appartement, studio, box : Rechercher et trouver</p>
+
+        <form class="row gx-3 gy-2 align-items-center">
+
+          <div class="col-sm-3 mb-3">
+            <label for="specificSizeSelect" class="mb-2">Preference</label>
+            <select class="form-select" id="specificSizeSelect">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="col-sm-3 mb-3">
+            <label for="specificSizeSelect" class="mb-2">Preference</label>
+            <select class="form-select" id="specificSizeSelect">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="col-sm-3 mb-3">
+            <label for="specificSizeSelect" class="mb-2">Preference</label>
+            <select class="form-select" id="specificSizeSelect">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+
+          <!-- <div class="col-sm-3 mb-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div> -->
+          <div class="col-sm-3 mb-3 subs">
+            <button type="submit" class="btn btnConnect">Recherchez</button>
+
+          </div>
+        </form>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../assets/images/house2.png" class="img-fluid rounded-start" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body text-light">
+                  <button type="submit" class="btn btnConsulte">A Louer</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cartitle">Villa De Creekland</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-door-closed-fill"></i>&nbsp;&nbsp;6 Chambres</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-0-square"></i>&nbsp;&nbsp;3 Salle de bain</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-house-door"></i>&nbsp;&nbsp;2 Sallons</p>
+                  </div>
+                </div>
+                <p class="card-text">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  {{location?.latitude}} {{location?.city}} {{location?.longitude}}
+                </p>
+                <div class="row">
+                  <div class="col-sm-8 mtn">
+                    <p class="cardF">200.000 Fcfa / Mois</p>
+                  </div>
+                  <div class="col-sm-4 icn"><i class="bi bi-share"></i> &nbsp;&nbsp; <i class="bi bi-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../assets/images/house1.png" class="img-fluid rounded-start" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body text-light">
+                  <button type="submit" class="btn btnConsulte">A Louer</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cartitle">Villa De Creekland</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-door-closed-fill"></i>&nbsp;&nbsp;6 Chambres</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-0-square"></i>&nbsp;&nbsp;3 Salle de bain</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-house-door"></i>&nbsp;&nbsp;2 Sallons</p>
+                  </div>
+                </div>
+                <p class="card-text">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  {{location?.latitude}} {{location?.city}} {{location?.longitude}}
+                </p>
+                <div class="row">
+                  <div class="col-sm-8 mtn">
+                    <p class="cardF">200.000 Fcfa / Mois</p>
+                  </div>
+                  <div class="col-sm-4 icn"><i class="bi bi-share"></i> &nbsp;&nbsp; <i class="bi bi-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../assets/images/house2.png" class="img-fluid rounded-start" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body text-light">
+                  <button type="submit" class="btn btnConsulte">A Louer</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cartitle">Villa De Creekland</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-door-closed-fill"></i>&nbsp;&nbsp;6 Chambres</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-0-square"></i>&nbsp;&nbsp;3 Salle de bain</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-house-door"></i>&nbsp;&nbsp;2 Sallons</p>
+                  </div>
+                </div>
+                <p class="card-text">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  {{location?.latitude}} {{location?.city}} {{location?.longitude}}
+                </p>
+                <div class="row">
+                  <div class="col-sm-8 mtn">
+                    <p class="cardF">200.000 Fcfa / Mois</p>
+                  </div>
+                  <div class="col-sm-4 icn"><i class="bi bi-share"></i> &nbsp;&nbsp; <i class="bi bi-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../assets/images/house1.png" class="img-fluid rounded-start" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body text-light">
+                  <button type="submit" class="btn btnConsulte">A Louer</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cartitle">Villa De Creekland</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-door-closed-fill"></i>&nbsp;&nbsp;6 Chambres</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-0-square"></i>&nbsp;&nbsp;3 Salle de bain</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-house-door"></i>&nbsp;&nbsp;2 Sallons</p>
+                  </div>
+                </div>
+                <p class="card-text">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  {{location?.latitude}} {{location?.city}} {{location?.longitude}}
+                </p>
+                <div class="row">
+                  <div class="col-sm-8 mtn">
+                    <p class="cardF">200.000 Fcfa / Mois</p>
+                  </div>
+                  <div class="col-sm-4 icn"><i class="bi bi-share"></i> &nbsp;&nbsp; <i class="bi bi-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../assets/images/house2.png" class="img-fluid rounded-start" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body text-light">
+                  <button type="submit" class="btn btnConsulte">A Louer</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cartitle">Villa De Creekland</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-door-closed-fill"></i>&nbsp;&nbsp;6 Chambres</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-0-square"></i>&nbsp;&nbsp;3 Salle de bain</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-house-door"></i>&nbsp;&nbsp;2 Sallons</p>
+                  </div>
+                </div>
+                <p class="card-text">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  {{location?.latitude}} {{location?.city}} {{location?.longitude}}
+                </p>
+                <div class="row">
+                  <div class="col-sm-8 mtn">
+                    <p class="cardF">200.000 Fcfa / Mois</p>
+                  </div>
+                  <div class="col-sm-4 icn"><i class="bi bi-share"></i> &nbsp;&nbsp; <i class="bi bi-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../assets/images/house1.png" class="img-fluid rounded-start" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body text-light">
+                  <button type="submit" class="btn btnConsulte">A Louer</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cartitle">Villa De Creekland</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-door-closed-fill"></i>&nbsp;&nbsp;6 Chambres</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-0-square"></i>&nbsp;&nbsp;3 Salle de bain</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-house-door"></i>&nbsp;&nbsp;2 Sallons</p>
+                  </div>
+                </div>
+                <p class="card-text">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  {{location?.latitude}} {{location?.city}} {{location?.longitude}}
+                </p>
+                <div class="row">
+                  <div class="col-sm-8 mtn">
+                    <p class="cardF">200.000 Fcfa / Mois</p>
+                  </div>
+                  <div class="col-sm-4 icn"><i class="bi bi-share"></i> &nbsp;&nbsp; <i class="bi bi-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../assets/images/house2.png" class="img-fluid rounded-start" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body text-light">
+                  <button type="submit" class="btn btnConsulte">A Louer</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cartitle">Villa De Creekland</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-door-closed-fill"></i>&nbsp;&nbsp;6 Chambres</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-0-square"></i>&nbsp;&nbsp;3 Salle de bain</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-house-door"></i>&nbsp;&nbsp;2 Sallons</p>
+                  </div>
+                </div>
+                <p class="card-text">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  {{location?.latitude}} {{location?.city}} {{location?.longitude}}
+                </p>
+                <div class="row">
+                  <div class="col-sm-8 mtn">
+                    <p class="cardF">200.000 Fcfa / Mois</p>
+                  </div>
+                  <div class="col-sm-4 icn"><i class="bi bi-share"></i> &nbsp;&nbsp; <i class="bi bi-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../assets/images/house1.png" class="img-fluid rounded-start" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body text-light">
+                  <button type="submit" class="btn btnConsulte">A Louer</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cartitle">Villa De Creekland</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-door-closed-fill"></i>&nbsp;&nbsp;6 Chambres</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-0-square"></i>&nbsp;&nbsp;3 Salle de bain</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-house-door"></i>&nbsp;&nbsp;2 Sallons</p>
+                  </div>
+                </div>
+                <p class="card-text">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  {{location?.latitude}} {{location?.city}} {{location?.longitude}}
+                </p>
+                <div class="row">
+                  <div class="col-sm-8 mtn">
+                    <p class="cardF">200.000 Fcfa / Mois</p>
+                  </div>
+                  <div class="col-sm-4 icn"><i class="bi bi-share"></i> &nbsp;&nbsp; <i class="bi bi-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../assets/images/house2.png" class="img-fluid rounded-start" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body text-light">
+                  <button type="submit" class="btn btnConsulte">A Louer</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cartitle">Villa De Creekland</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-door-closed-fill"></i>&nbsp;&nbsp;6 Chambres</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-0-square"></i>&nbsp;&nbsp;3 Salle de bain</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-house-door"></i>&nbsp;&nbsp;2 Sallons</p>
+                  </div>
+                </div>
+                <p class="card-text">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  {{location?.latitude}} {{location?.city}} {{location?.longitude}}
+                </p>
+                <div class="row">
+                  <div class="col-sm-8 mtn">
+                    <p class="cardF">200.000 Fcfa / Mois</p>
+                  </div>
+                  <div class="col-sm-4 icn"><i class="bi bi-share"></i> &nbsp;&nbsp; <i class="bi bi-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../assets/images/house1.png" class="img-fluid rounded-start" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body text-light">
+                  <button type="submit" class="btn btnConsulte">A Louer</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cartitle">Villa De Creekland</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-door-closed-fill"></i>&nbsp;&nbsp;6 Chambres</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-0-square"></i>&nbsp;&nbsp;3 Salle de bain</p>
+                  </div>
+                  <div class="col">
+                    <p class="nbr"><i class="bi bi-house-door"></i>&nbsp;&nbsp;2 Sallons</p>
+                  </div>
+                </div>
+                <p class="card-text">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  {{location?.latitude}} {{location?.city}} {{location?.longitude}}
+                </p>
+                <div class="row">
+                  <div class="col-sm-8 mtn">
+                    <p class="cardF">200.000 Fcfa / Mois</p>
+                  </div>
+                  <div class="col-sm-4 icn"><i class="bi bi-share"></i> &nbsp;&nbsp; <i class="bi bi-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container1">
+      <nav aria-label="...">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <span class="page-link">Previous</span>
+          </li>
+          <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+</section>
+<app-footer></app-footer>

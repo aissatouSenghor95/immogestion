@@ -6,6 +6,11 @@
   line-height: 54px;
   color: #2a2c30;
 }
+.imglogo {
+  width: 150px;
+  height: 70px;
+  object-fit: cover;
+}
 .test {
   background-color: #6ea72f;
   height: 35px;
@@ -75,4 +80,8 @@
   .navbar-toggler {
     margin-right: 22px;
   }
+}
+
+/* responsive tablette */
+@media only screen and (min-width: 768px) and (max-width: 920px) {
 }

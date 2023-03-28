@@ -1,0 +1,25 @@
+.formRech {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  /* height: 300px; */
+}
+.formRech label,
+#exampleFormControlSelect1 {
+  font-size: 13px;
+  color: #7b7b7b;
+}
+.subs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.btnConnect {
+  padding: 8px 40px;
+  background: #6ea72f;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #ffffff;
+  width: 100%;
+}

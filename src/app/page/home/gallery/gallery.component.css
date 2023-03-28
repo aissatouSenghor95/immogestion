@@ -1,0 +1,118 @@
+.galerie {
+  background-color: #f8f8f8;
+}
+.img1 {
+  height: 475px;
+  object-fit: cover;
+}
+.img6 {
+  object-fit: cover;
+  height: 166px;
+}
+.btnsavoirplus {
+  padding: 11px 35px;
+  background: #6ea72f;
+  border-radius: 6px;
+  margin-top: 1px;
+  font-size: 18px;
+  margin-left: 0px;
+  color: #ffffff;
+}
+.divbtn {
+  display: flex;
+  padding-bottom: 77px;
+  padding-top: 40px;
+  justify-content: center;
+}
+.txthp {
+  text-align: center;
+  padding: 60px;
+}
+.txthp .txtp {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 33px;
+  line-height: 44px;
+  color: #333333;
+}
+.txthp .txth {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 100px;
+  color: #6ea72f;
+}
+/* responsive mobile */
+@media only screen and (min-width: 260px) and (max-width: 540px) {
+  .txthp .txth {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .txthp .txtp {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: #333333;
+  }
+  .txthp {
+    text-align: center;
+    padding: 30px;
+  }
+  .img1 {
+    height: 200px;
+    object-fit: cover;
+  }
+  .img3 {
+    object-fit: cover;
+    height: 130px;
+    width: 100%;
+  }
+  .img5,
+  .img7 {
+    object-fit: cover;
+    height: 65px;
+  }
+  .img6 {
+    object-fit: cover;
+    height: 100%;
+  }
+  .btnsavoirplus {
+    padding: 11px 35px;
+    background: #6ea72f;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-left: 0px;
+    color: #ffffff;
+  }
+}
+
+/* responsive tablette */
+@media only screen and (min-width: 768px) and (max-width: 920px) {
+  h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 45px;
+    color: #6ea72f;
+  }
+  .txthp .txth {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 70px;
+    color: #6ea72f;
+  }
+  .img1 {
+    height: 294px;
+    object-fit: cover;
+  }
+  .img6 {
+    object-fit: cover;
+    height: 98px;
+  }
+}

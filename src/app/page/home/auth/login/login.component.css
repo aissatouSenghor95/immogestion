@@ -1,0 +1,93 @@
+.formRech {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  /* height: 300px; */
+}
+.formRech p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 25px;
+  text-align: center;
+  color: #2a2c30;
+}
+.formRech .btnRech {
+  background: transparent;
+  border-radius: 50px;
+  border: 1px solid #d3dee8;
+  margin-top: 5px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+  color: #2a2c30;
+  width: 100%;
+}
+.formRech label,
+#exampleFormControlSelect1 {
+  font-size: 13px;
+  color: #7b7b7b;
+}
+.separator {
+  width: 100%;
+  text-align: center;
+  border-bottom: 0.1rem solid #858484;
+  line-height: 0.1rem;
+  margin-top: 20px;
+}
+.separ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modepass {
+  display: flex;
+  align-items: flex-end;
+  align-content: flex-end;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.modepass a {
+  font-size: 13px;
+  text-decoration: none;
+}
+.btnConnect {
+  padding: 8px 40px;
+  background: #6ea72f;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #ffffff;
+  width: 100%;
+}
+.subs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* responsive mobile */
+@media only screen and (min-width: 260px) and (max-width: 540px) {
+  .formRech .btnRech {
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid #d3dee8;
+    margin-top: 5px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    color: #2a2c30;
+  }
+}

@@ -5,13 +5,17 @@ import { SharedRoutingModule } from './shared-routing.module';
 import { SharedComponent } from './shared.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { BannerComponent } from './banner/banner.component';
+import { ImgDirective } from './img.directive';
 
 
 @NgModule({
   declarations: [
     SharedComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    BannerComponent,
+    ImgDirective
   ],
   imports: [
     CommonModule,
@@ -21,6 +25,8 @@ import { FooterComponent } from './footer/footer.component';
   exports: [
     HeaderComponent,
     FooterComponent,
+    BannerComponent,
+    ImgDirective
 
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
