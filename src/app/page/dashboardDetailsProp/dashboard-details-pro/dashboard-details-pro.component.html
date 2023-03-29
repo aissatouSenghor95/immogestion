@@ -16,21 +16,167 @@
 
   <div class="row pt-5">
     <div class="col-8 col-xl-8 stretch-card">
-      <div class="card" id="card0">
-        <div class="card-body">
-          <div class="d-flex justify-content-right align-items-baseline">
-           <h3>Orchard House</h3>
-           <mat-button>baba</mat-button>
+      <mat-card class="pt-2">
+          <div class="row pt-2 p-3">
+            <div class="col-8">
+              <div class="d-flex justify-content-right align-items-baseline">
+                <h3>Orchard House</h3> <br>
+               </div>
+                
+                <span><p>779 6th Ave New York, NY 120400</p></span>
+                <div class="row">
+                  <div class="col">
+                    <mat-icon>home</mat-icon>6 Chambres
+                  </div>
+                  <div class="col">
+                    <mat-icon>home</mat-icon> 6 Chambres
+                  </div>
+                  <div class="col">
+                    <mat-icon>home</mat-icon>6 Chambres
+                  </div>
+                </div>
+            </div>
+            <div class="col-4">
+              <div class="d-flex justify-content-right align-items-baseline">
+                <button mat-raised-button color="accent">Accent</button>
+               </div> <br>
+               <div class="pt-2">
+                <a mat-raised-button routerLink="#">Link</a> &nbsp;
+                <a mat-raised-button routerLink="#">Link</a>
+               </div>
+               
+               
+            </div>
           </div>
-          <div class="pt-2 d-flex justify-content-left">
-            
-          </div>
+      </mat-card>
+    </div>
+    <div class="col-4  stretch-card">
+      <mat-card class="pt-2">
+        <div class="d-flex justify-content-center">
+          <img src="assets/images/pers1.png" alt="" class="imagelogo"> 
           
         </div>
-      </div>
+        <span class="d-flex justify-content-center"><h3>ABdoulaye Sané</h3></span>
+        <div class="row">
+          <div class="col">
+              <span ><p class="p-2">Abdoulaye@immo.com</p></span>
+          </div>
+          <div class="col">
+            <span ><p class="pt-2">77 345 33 21</p></span>
+          </div>
+        </div>
+    </mat-card>
     </div>
-    <div class="col-4 col-xl-2 stretch-card">
-        <div class="card"></div>
+  </div>
+  <!-- section -->
+  <div class="row pt-5">
+    <div class="col-8 col-xl-8 stretch-card">
+      <img mat-card-image  src="assets/images/house.png" >
+        
+    </div>
+    <div class="col-4  stretch-card">
+      <mat-card class="pt-2">
+        <span><h2 class="text-center">Envoyer une requete</h2></span>
+        <div class="d-flex justify-content-center">
+          <form action="">
+              <div>
+                <input class="form-control" type="text" placeholder="Default input">
+              </div> <br>
+              <div>
+                <input class="form-control" type="text" placeholder="Default input" style="height: 100px;">
+              </div>
+              <div class=" pt-2 p-2 ">
+                <a mat-raised-button routerLink="#">Link</a> &nbsp;
+              </div>
+          </form>
+          
+          
+        </div>
+        
+    </mat-card>
+    </div>
+  </div>
+  <!-- section -->
+
+  <div class="row pt-5">
+    <div class="col-8 col-xl-8 stretch-card">
+      <h2>A propos</h2>
+      <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde accusamus corporis ad officiis eius voluptates culpa provident ut et? Voluptatibus sunt illum eius, soluta aliquid doloribus numquam excepturi voluptas natus.</p>
+      
+      <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quidem dicta necessitatibus provident libero placeat ratione optio, distinctio harum eum, ullam sit tempore neque incidunt molestias ipsa sunt accusamus earum.</p>
+
+      <iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="900"
+    height="200"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+</iframe>
+    </div>
+    <div class="col-4  stretch-card">
+      <mat-card class="pt-2">
+        <span><h2 class="text-center">Envoyer une requete</h2></span>
+        <div class=" p-2 d-flex justify-content-center">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Prix:</th>
+                <th scope="col">200.000 Fcfa / Mois</th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Type de contrat</th>
+                <td>Location</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Salles de bain :</th>
+                <td>2</td>
+                
+              </tr>
+              <tr>
+                <th scope="row"> Places de garage :</th>
+                <td>3</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Disponible:</th>
+                <td>Immediat</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Chambres:</th>
+                <td>Jacob</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Sallons:</th>
+                <td>2</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Climatisation:</th>
+                <td>oui</td>
+                
+              </tr>
+              <tr>
+                <th scope="row"> Internet:</th>
+                <td>oui</td>
+                
+              </tr>
+              
+             
+            </tbody>
+          </table>
+          
+        </div>
+        
+    </mat-card>
+    <div class="pt-2 d-flex justify-content-center">
+      <button mat-stroked-button color="primary">envoyer</button>
+    </div>
+    
     </div>
   </div>
 </div>
