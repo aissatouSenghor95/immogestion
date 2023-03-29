@@ -31,7 +31,18 @@ import { DashboardComponent } from './page/DashHome/dashboard/dashboard.componen
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { DashboardUserComponent } from './page/dashbUser/dashboard-user/dashboard-user.component';
+import { NavUserComponent } from './page/dashbUser/nav-user/nav-user.component';
+import { DashboardPropComponent } from './page/dashPropr/dashboard-prop/dashboard-prop.component';
+import { NavPropComponent } from './page/dashPropr/nav-prop/nav-prop.component';
 
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {NgxPaginationModule} from 'ngx-pagination';
+import { DashboardDetailsProComponent } from './page/dashboardDetailsProp/dashboard-details-pro/dashboard-details-pro.component';
+import { NavDetailsComponent } from './page/dashboardDetailsProp/nav-details/nav-details.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +52,14 @@ import { MatExpansionModule } from '@angular/material/expansion';
     FaqComponent,
     NavComponent,
     DashboardComponent,
+    DashboardUserComponent,
+    NavUserComponent,
+    DashboardPropComponent,
+    NavPropComponent,
+    DashboardDetailsProComponent,
+    NavDetailsComponent,
+   
+    
   ],
   imports: [
     BrowserModule,
@@ -61,7 +80,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatIconModule,
     MatListModule,
     MatGridListModule,
-    MatMenuModule,MatExpansionModule
+    MatMenuModule,MatExpansionModule, MatTableModule, MatPaginatorModule, MatSortModule,MatButtonToggleModule,NgxPaginationModule
 
   ],
   providers: [],
