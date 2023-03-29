@@ -7,13 +7,15 @@ import { FormulaireComponent } from './formulaire/formulaire.component';
 import { AdresseComponent } from './adresse/adresse.component';
 import { MatCardModule } from '@angular/material/card';
 import { SharedModule } from '../../shared/shared.module';
+import { BannerComponent } from './banner/banner.component';
 
 
 @NgModule({
   declarations: [
     ContactComponent,
     FormulaireComponent,
-    AdresseComponent
+    AdresseComponent,
+    BannerComponent
   ],
   imports: [
     CommonModule,

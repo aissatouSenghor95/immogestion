@@ -35,12 +35,16 @@ import { DashboardUserComponent } from './page/dashbUser/dashboard-user/dashboar
 import { NavUserComponent } from './page/dashbUser/nav-user/nav-user.component';
 import { DashboardPropComponent } from './page/dashPropr/dashboard-prop/dashboard-prop.component';
 import { NavPropComponent } from './page/dashPropr/nav-prop/nav-prop.component';
+import { DashboardtestComponent } from './page/dashboardtest/dashboardtest.component';
+import { BannerfaqComponent } from './page/banner/bannerfaq/bannerfaq.component';
+import { BannerdetailproComponent } from './page/banner/bannerdetailpro/bannerdetailpro.component';
+import { BannerlistproComponent } from './page/banner/bannerlistpro/bannerlistpro.component';
 
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
-import {MatButtonToggleModule} from '@angular/material/button-toggle';
-import {NgxPaginationModule} from 'ngx-pagination';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { NgxPaginationModule } from 'ngx-pagination';
 import { DashboardDetailsProComponent } from './page/dashboardDetailsProp/dashboard-details-pro/dashboard-details-pro.component';
 import { NavDetailsComponent } from './page/dashboardDetailsProp/nav-details/nav-details.component';
 
@@ -52,14 +56,6 @@ import { NavDetailsComponent } from './page/dashboardDetailsProp/nav-details/nav
     FaqComponent,
     NavComponent,
     DashboardComponent,
-    DashboardUserComponent,
-    NavUserComponent,
-    DashboardPropComponent,
-    NavPropComponent,
-    DashboardDetailsProComponent,
-    NavDetailsComponent,
-   
-    
   ],
   imports: [
     BrowserModule,
@@ -80,7 +76,7 @@ import { NavDetailsComponent } from './page/dashboardDetailsProp/nav-details/nav
     MatIconModule,
     MatListModule,
     MatGridListModule,
-    MatMenuModule,MatExpansionModule, MatTableModule, MatPaginatorModule, MatSortModule,MatButtonToggleModule,NgxPaginationModule
+    MatMenuModule, MatExpansionModule, MatTableModule, MatPaginatorModule, MatSortModule, MatButtonToggleModule, NgxPaginationModule
 
   ],
   providers: [],

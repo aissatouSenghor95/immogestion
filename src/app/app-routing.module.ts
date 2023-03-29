@@ -9,6 +9,7 @@ import { NavUserComponent } from './page/dashbUser/nav-user/nav-user.component';
 import { NavPropComponent } from './page/dashPropr/nav-prop/nav-prop.component';
 import { NavDetailsComponent } from './page/dashboardDetailsProp/nav-details/nav-details.component';
 
+import { DashboardtestComponent } from './page/dashboardtest/dashboardtest.component';
 
 const routes: Routes = [
   { path: '', loadChildren: () => import('./page/home/home.module').then(m => m.HomeModule) }, { path: 'shared', loadChildren: () => import('./shared/shared.module').then(m => m.SharedModule) },
@@ -18,9 +19,6 @@ const routes: Routes = [
   { path: 'faq', component: FaqComponent },
 
   { path: 'dashboard', component: NavComponent },
-  { path: 'dashboard-user', component: NavUserComponent},
-  { path: 'dashboard-user-propriete', component: NavPropComponent},
-  { path: 'dashboard-detail-propriete', component: NavDetailsComponent},
   { path: 'contact', loadChildren: () => import('./page/contact/contact.module').then(m => m.ContactModule) },
   { path: 'about', loadChildren: () => import('./page/about/about.module').then(m => m.AboutModule) },
   { path: 'cequenousfaisons', loadChildren: () => import('./page/cequenousfaisons/cequenousfaisons.module').then(m => m.CequenousfaisonsModule) },

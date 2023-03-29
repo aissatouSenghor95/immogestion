@@ -8,6 +8,7 @@ import { ContactaboutComponent } from './contactabout/contactabout.component';
 import { AventureComponent } from './aventure/aventure.component';
 import { GalleryaboutComponent } from './galleryabout/galleryabout.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { BannerComponent } from './banner/banner.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { SharedModule } from 'src/app/shared/shared.module';
     TeamComponent,
     ContactaboutComponent,
     AventureComponent,
-    GalleryaboutComponent
+    GalleryaboutComponent,
+    BannerComponent
   ],
   imports: [
     CommonModule,

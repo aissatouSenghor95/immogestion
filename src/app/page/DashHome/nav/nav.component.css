@@ -3,7 +3,7 @@
 }
 
 .sidenav {
-  width: 300px;
+  width: 250px;
 }
 
 .sidenav .mat-toolbar {
@@ -15,27 +15,26 @@
   top: 0;
   z-index: 1;
 }
-.nav-container{
+.nav-container {
   display: flex;
   grid-template-columns: 90% 10%;
   width: 100%;
 }
 
-.imagelogo{
+.imagelogo {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
-#recherche{
+#recherche {
   width: 122px;
   border-radius: 30px;
   padding-top: 10px;
   padding-left: 33px;
   margin-top: 5px;
   margin-right: 75px;
-
 }
-.imagelogo1{
+.imagelogo1 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -52,22 +51,22 @@
   justify-content: center;
 }
 
-.text{
+.text {
   margin-left: 20px;
   font-size: 20px;
   color: rgb(2, 2, 2);
 }
-.text1{
+.text1 {
   font-size: 15px;
 }
-.notifi{
+.notifi {
   margin-left: 50px;
   margin-top: 10px;
 }
-.barr{
+.barr {
   background-color: rgba(240, 248, 255, 0.729);
 }
-#imagesC{
+#imagesC {
   width: 50px;
   height: 50px;
   border-radius: 50%;

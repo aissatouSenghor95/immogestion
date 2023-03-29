@@ -1,0 +1,64 @@
+.about-title-bg {
+  background-image: url("/../assets/images/Banner.png");
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  z-index: 0;
+}
+.about-title-bg::before {
+  position: absolute;
+  content: "";
+  background: rgba(25, 29, 51, 0.35);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.d-table {
+  width: 100%;
+  height: 100%;
+}
+.d-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.about-title .about-title-text {
+  text-align: center;
+}
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* responsive mobile */
+@media only screen and (min-width: 260px) and (max-width: 540px) {
+  h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .about-title-bg {
+    background-image: url("/../assets/images/Banner.png");
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    z-index: 0;
+  }
+}

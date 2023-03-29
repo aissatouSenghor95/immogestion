@@ -110,6 +110,7 @@
     margin-left: -17px;
     color: #000000;
   }
+
   .card-img {
     object-fit: cover;
     width: 100%;
@@ -137,21 +138,11 @@
     font-size: 21px;
     line-height: 30px;
   }
-  .btnVi {
-    padding: 1px 5px;
-    margin-top: -278px;
-    font-size: 14px;
-    margin-left: 221px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
   .btnPh {
-    padding: 1px 5px;
-    margin-top: -288px;
-    font-size: 14px;
-    margin-left: 221px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  .btnVi {
+    display: none;
   }
   .mtn {
     width: 60%;
@@ -163,4 +154,27 @@
 
 /* responsive tablette */
 @media only screen and (min-width: 768px) and (max-width: 920px) {
+  .btnConsulte {
+    background: #ffffff;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: -17px;
+    color: #000000;
+  }
+  .btnPh {
+    display: none;
+  }
+  .btnVi {
+    display: none;
+  }
+  .cartitle {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .nbr {
+    font-size: 11px;
+    color: #333333;
+  }
 }

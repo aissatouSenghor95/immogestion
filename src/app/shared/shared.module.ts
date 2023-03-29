@@ -5,7 +5,6 @@ import { SharedRoutingModule } from './shared-routing.module';
 import { SharedComponent } from './shared.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { BannerComponent } from './banner/banner.component';
 import { ImgDirective } from './img.directive';
 
 
@@ -14,7 +13,6 @@ import { ImgDirective } from './img.directive';
     SharedComponent,
     HeaderComponent,
     FooterComponent,
-    BannerComponent,
     ImgDirective
   ],
   imports: [
@@ -25,7 +23,6 @@ import { ImgDirective } from './img.directive';
   exports: [
     HeaderComponent,
     FooterComponent,
-    BannerComponent,
     ImgDirective
 
   ],
