@@ -46,6 +46,8 @@ import { NavDetailsComponent } from './page/dashboardDetailsProp/nav-details/nav
 import { DashboardUserPaiementComponent } from './page/dashboardUserPaie/dashboard-user-paiement/dashboard-user-paiement.component';
 import { NavPaiementComponent } from './page/dashboardUserPaie/nav-paiement/nav-paiement.component';
 import {MatSelectModule} from '@angular/material/select';
+import { DashboardUserFactComponent } from './page/dashboardUserFac/dashboard-user-fact/dashboard-user-fact.component';
+import { NavFactureComponent } from './page/dashboardUserFac/nav-facture/nav-facture.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,6 +64,8 @@ import {MatSelectModule} from '@angular/material/select';
     NavDetailsComponent,
     DashboardUserPaiementComponent,
     NavPaiementComponent,
+    DashboardUserFactComponent,
+    NavFactureComponent,
    
     
   ],

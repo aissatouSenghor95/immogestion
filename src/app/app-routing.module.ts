@@ -9,6 +9,7 @@ import { NavUserComponent } from './page/dashbUser/nav-user/nav-user.component';
 import { NavPropComponent } from './page/dashPropr/nav-prop/nav-prop.component';
 import { NavDetailsComponent } from './page/dashboardDetailsProp/nav-details/nav-details.component';
 import { NavPaiementComponent } from './page/dashboardUserPaie/nav-paiement/nav-paiement.component';
+import { NavFactureComponent } from './page/dashboardUserFac/nav-facture/nav-facture.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'dashboard-user', component: NavUserComponent},
   { path: 'dashboard-user-propriete', component: NavPropComponent},
   { path: 'dashboard-user-paiement', component: NavPaiementComponent},
+  { path: 'dashboard-facture', component: NavFactureComponent},
   { path: 'dashboard-detail-propriete', component: NavDetailsComponent},
   { path: 'contact', loadChildren: () => import('./page/contact/contact.module').then(m => m.ContactModule) },
   { path: 'about', loadChildren: () => import('./page/about/about.module').then(m => m.AboutModule) },
