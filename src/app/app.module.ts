@@ -43,7 +43,9 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { DashboardDetailsProComponent } from './page/dashboardDetailsProp/dashboard-details-pro/dashboard-details-pro.component';
 import { NavDetailsComponent } from './page/dashboardDetailsProp/nav-details/nav-details.component';
-
+import { DashboardUserPaiementComponent } from './page/dashboardUserPaie/dashboard-user-paiement/dashboard-user-paiement.component';
+import { NavPaiementComponent } from './page/dashboardUserPaie/nav-paiement/nav-paiement.component';
+import {MatSelectModule} from '@angular/material/select';
 @NgModule({
   declarations: [
     AppComponent,
@@ -58,6 +60,8 @@ import { NavDetailsComponent } from './page/dashboardDetailsProp/nav-details/nav
     NavPropComponent,
     DashboardDetailsProComponent,
     NavDetailsComponent,
+    DashboardUserPaiementComponent,
+    NavPaiementComponent,
    
     
   ],
@@ -79,7 +83,7 @@ import { NavDetailsComponent } from './page/dashboardDetailsProp/nav-details/nav
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatGridListModule,
+    MatGridListModule,MatSelectModule,
     MatMenuModule,MatExpansionModule, MatTableModule, MatPaginatorModule, MatSortModule,MatButtonToggleModule,NgxPaginationModule
 
   ],

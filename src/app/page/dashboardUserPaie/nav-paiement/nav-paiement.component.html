@@ -1,0 +1,134 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    <mat-toolbar>GestionImmo</mat-toolbar>
+    <div class="d-flex justify-content-left ">
+      <img src="assets/images/pers1.png" alt="" id="imagesC">
+      <h1 class="p-2">Amadou sy </h1> 
+    </div>
+    <mat-nav-list >
+      <mat-list-item routerLink="#" >
+          <mat-icon>dashboard</mat-icon><span>Dashboard</span>
+      </mat-list-item>
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>reorder</mat-icon>
+              <span>Propriétés</span>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <mat-list>
+            <mat-list-item> 
+              <mat-icon>chevron_right</mat-icon>
+              <span>Tous les Propriétés</span> 
+            </mat-list-item>
+            <mat-list-item> 
+              <mat-icon>chevron_right</mat-icon>
+             <span>Details Propriétés</span>
+            </mat-list-item>
+            
+           </mat-list>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon> local_grocery_store</mat-icon>
+              <span>Paiement</span>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <mat-list>
+            <mat-list-item> 
+              <mat-icon>chevron_right</mat-icon>
+              <span>Listes paiement</span> 
+            </mat-list-item>
+            <mat-list-item> 
+              <mat-icon>chevron_right</mat-icon>
+             <span>Factures</span>
+            </mat-list-item>
+            
+           </mat-list>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon> notifications_active</mat-icon>
+              <span>Notifications</span>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <mat-list>
+            <mat-list-item> 
+              <mat-icon>chevron_right</mat-icon>
+              <span>Listes Notifications</span> 
+            </mat-list-item>
+            <mat-list-item> 
+              <mat-icon>chevron_right</mat-icon>
+             <span>Details Notifications</span>
+            </mat-list-item>
+            
+           </mat-list>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon> settings</mat-icon>
+              <span>Settings</span>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <mat-list>
+            <mat-list-item> 
+              <mat-icon>chevron_right</mat-icon>
+              <span> Profils</span> 
+            </mat-list-item>
+            <mat-list-item> 
+              <mat-icon>chevron_right</mat-icon>
+             <span>Edit Profil</span>
+            </mat-list-item>
+            
+           </mat-list>
+        </mat-expansion-panel>
+      </mat-accordion>
+      
+  </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar class="barr">
+      <div class="nav-container">
+        <button
+           type="button"
+           aria-label="Toggle sidenav"
+           mat-icon-button
+           (click)="drawer.toggle()"
+           *ngIf="isHandset$ | async">
+           <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+       </button>
+       <mat-button-toggle >
+        <mat-icon (click)="drawer.toggle();" >format_align_left</mat-icon>
+      </mat-button-toggle>
+     </div>
+     
+     <div class="row">
+      <div class=" col-6 col-lg-4  ">
+        
+        <form action="">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search"  id= "recherche" aria-label="Search">
+      </form>
+        
+      </div>
+      <div class="col-3 col-md-3 col-lg-4 col-xl-4">
+        <mat-icon class="notifi">notifications</mat-icon>
+      </div>
+      <div class="col-3 col-md-3 col-lg-4 col-xl-4">
+       <img src="assets/images/pers1.png" alt="" class="imagelogo">
+      </div>
+      
+    </div>
+    
+    </mat-toolbar>
+    <app-dashboard-user-paiement></app-dashboard-user-paiement>
+  </mat-sidenav-content>
+</mat-sidenav-container>
