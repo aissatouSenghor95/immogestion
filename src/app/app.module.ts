@@ -50,6 +50,12 @@ import { DashboardUserFactComponent } from './page/dashboardUserFac/dashboard-us
 import { NavFactureComponent } from './page/dashboardUserFac/nav-facture/nav-facture.component';
 import { NavProfilUserComponent } from './page/dashProfilUser/nav-profil-user/nav-profil-user.component';
 import { DashboardProfilUserComponent } from './page/dashProfilUser/dashboard-profil-user/dashboard-profil-user.component';
+import { NavEditUserComponent } from './page/EditUserProfil/nav-edit-user/nav-edit-user.component';
+import { EditUserComponent } from './page/EditUserProfil/edit-user/edit-user.component';
+import { DashboardAddUserComponent } from './page/dashAddUser/dashboard-add-user/dashboard-add-user.component';
+import { NavAddUserComponent } from './page/dashAddUser/nav-add-user/nav-add-user.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -70,9 +76,11 @@ import { DashboardProfilUserComponent } from './page/dashProfilUser/dashboard-pr
     NavFactureComponent,
     NavProfilUserComponent,
     DashboardProfilUserComponent,
-   
-   
-
+    NavEditUserComponent,
+    EditUserComponent,
+    DashboardAddUserComponent,
+    NavAddUserComponent,
+    
   ],
   imports: [
     BrowserModule,

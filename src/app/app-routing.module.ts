@@ -11,6 +11,8 @@ import { NavDetailsComponent } from './page/dashboardDetailsProp/nav-details/nav
 import { NavPaiementComponent } from './page/dashboardUserPaie/nav-paiement/nav-paiement.component';
 import { NavFactureComponent } from './page/dashboardUserFac/nav-facture/nav-facture.component';
 import { NavProfilUserComponent } from './page/dashProfilUser/nav-profil-user/nav-profil-user.component';
+import { NavEditUserComponent } from './page/EditUserProfil/nav-edit-user/nav-edit-user.component';
+import { NavAddUserComponent } from './page/dashAddUser/nav-add-user/nav-add-user.component';
 
 
 const routes: Routes = [
@@ -25,7 +27,9 @@ const routes: Routes = [
   { path: 'dashboard-user-propriete', component: NavPropComponent},
   { path: 'dashboard-user-paiement', component: NavPaiementComponent},
   { path: 'dashboard-user-profil', component: NavProfilUserComponent},
+  { path: 'dashboard-edit-user', component: NavEditUserComponent},
   { path: 'dashboard-facture', component: NavFactureComponent},
+  { path: 'dashboard-add-user', component: NavAddUserComponent},
   { path: 'dashboard-detail-propriete', component: NavDetailsComponent},
   { path: 'contact', loadChildren: () => import('./page/contact/contact.module').then(m => m.ContactModule) },
   { path: 'about', loadChildren: () => import('./page/about/about.module').then(m => m.AboutModule) },

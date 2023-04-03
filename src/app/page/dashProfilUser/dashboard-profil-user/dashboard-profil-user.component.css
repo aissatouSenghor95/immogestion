@@ -17,3 +17,12 @@
   height: 100px;
   object-fit: contain;
 }
+#titre{
+  color: #0073E1;
+}
+.mat-icon{
+ 
+    height: 19px;
+    width: 22px;
+    overflow: hidden;
+}
