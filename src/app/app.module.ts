@@ -56,6 +56,10 @@ import { DashboardAddUserComponent } from './page/dashAddUser/dashboard-add-user
 import { NavAddUserComponent } from './page/dashAddUser/nav-add-user/nav-add-user.component';
 import { DashboardNotifiComponent } from './page/dashNotifi/dashboard-notifi/dashboard-notifi.component';
 import { NavNotifiComponent } from './page/dashNotifi/nav-notifi/nav-notifi.component';
+import { DashboardNotifiDetailComponent } from './page/dashNotifiDetail/dashboard-notifi-detail/dashboard-notifi-detail.component';
+import { NavNotifiDetailComponent } from './page/dashNotifiDetail/nav-notifi-detail/nav-notifi-detail.component';
+import { DashboardEnvoiNotifComponent } from './page/DashENvoiNotifi/dashboard-envoi-notif/dashboard-envoi-notif.component';
+import { EnvoiNotifComponent } from './page/DashENvoiNotifi/envoi-notif/envoi-notif.component';
 
 
 @NgModule({
@@ -84,6 +88,10 @@ import { NavNotifiComponent } from './page/dashNotifi/nav-notifi/nav-notifi.comp
     NavAddUserComponent,
     DashboardNotifiComponent,
     NavNotifiComponent,
+    DashboardNotifiDetailComponent,
+    NavNotifiDetailComponent,
+    DashboardEnvoiNotifComponent,
+    EnvoiNotifComponent,
     
   ],
   imports: [

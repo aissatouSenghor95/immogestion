@@ -14,6 +14,8 @@ import { NavProfilUserComponent } from './page/dashProfilUser/nav-profil-user/na
 import { NavEditUserComponent } from './page/EditUserProfil/nav-edit-user/nav-edit-user.component';
 import { NavAddUserComponent } from './page/dashAddUser/nav-add-user/nav-add-user.component';
 import { NavNotifiComponent } from './page/dashNotifi/nav-notifi/nav-notifi.component';
+import { NavNotifiDetailComponent } from './page/dashNotifiDetail/nav-notifi-detail/nav-notifi-detail.component';
+import { EnvoiNotifComponent } from './page/DashENvoiNotifi/envoi-notif/envoi-notif.component';
 
 
 const routes: Routes = [
@@ -32,7 +34,9 @@ const routes: Routes = [
   { path: 'dashboard-facture', component: NavFactureComponent},
   { path: 'dashboard-add-user', component: NavAddUserComponent},
   { path: 'dashboard-notification', component:NavNotifiComponent},
+  { path: 'dashboard-notification-detail', component:NavNotifiDetailComponent},
   { path: 'dashboard-detail-propriete', component: NavDetailsComponent},
+  { path: 'dashboard-envoi-notification', component: EnvoiNotifComponent},
   { path: 'contact', loadChildren: () => import('./page/contact/contact.module').then(m => m.ContactModule) },
   { path: 'about', loadChildren: () => import('./page/about/about.module').then(m => m.AboutModule) },
   { path: 'cequenousfaisons', loadChildren: () => import('./page/cequenousfaisons/cequenousfaisons.module').then(m => m.CequenousfaisonsModule) },

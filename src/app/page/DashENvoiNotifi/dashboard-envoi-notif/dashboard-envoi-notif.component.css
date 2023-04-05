@@ -1,0 +1,11 @@
+.grid-container {
+  margin: 20px;
+}
+#btn1{
+  float: right !important;
+
+}
+#message{
+  width: 100% !important;
+  height: 100px;
+}
