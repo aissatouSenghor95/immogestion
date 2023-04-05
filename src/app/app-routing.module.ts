@@ -13,6 +13,7 @@ import { NavFactureComponent } from './page/dashboardUserFac/nav-facture/nav-fac
 import { NavProfilUserComponent } from './page/dashProfilUser/nav-profil-user/nav-profil-user.component';
 import { NavEditUserComponent } from './page/EditUserProfil/nav-edit-user/nav-edit-user.component';
 import { NavAddUserComponent } from './page/dashAddUser/nav-add-user/nav-add-user.component';
+import { NavNotifiComponent } from './page/dashNotifi/nav-notifi/nav-notifi.component';
 
 
 const routes: Routes = [
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'dashboard-edit-user', component: NavEditUserComponent},
   { path: 'dashboard-facture', component: NavFactureComponent},
   { path: 'dashboard-add-user', component: NavAddUserComponent},
+  { path: 'dashboard-notification', component:NavNotifiComponent},
   { path: 'dashboard-detail-propriete', component: NavDetailsComponent},
   { path: 'contact', loadChildren: () => import('./page/contact/contact.module').then(m => m.ContactModule) },
   { path: 'about', loadChildren: () => import('./page/about/about.module').then(m => m.AboutModule) },

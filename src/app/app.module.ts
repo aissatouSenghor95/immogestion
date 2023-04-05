@@ -54,6 +54,8 @@ import { NavEditUserComponent } from './page/EditUserProfil/nav-edit-user/nav-ed
 import { EditUserComponent } from './page/EditUserProfil/edit-user/edit-user.component';
 import { DashboardAddUserComponent } from './page/dashAddUser/dashboard-add-user/dashboard-add-user.component';
 import { NavAddUserComponent } from './page/dashAddUser/nav-add-user/nav-add-user.component';
+import { DashboardNotifiComponent } from './page/dashNotifi/dashboard-notifi/dashboard-notifi.component';
+import { NavNotifiComponent } from './page/dashNotifi/nav-notifi/nav-notifi.component';
 
 
 @NgModule({
@@ -80,6 +82,8 @@ import { NavAddUserComponent } from './page/dashAddUser/nav-add-user/nav-add-use
     EditUserComponent,
     DashboardAddUserComponent,
     NavAddUserComponent,
+    DashboardNotifiComponent,
+    NavNotifiComponent,
     
   ],
   imports: [
